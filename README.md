@@ -10,15 +10,17 @@
 - Preparation for a hypothetical churn model
 
 ### The class will have in input
-    - The file
-    - format of file (CSV and parquet accepted, but easy implement others)
-    - Aggregation type (month or week accepted, but be brave and creative)
-    - Select a period start and end (or none)
+
+- The file_name
+- The format of the file (CSV and parquet accepted)
+- Aggregation type ('month' and 'week' accepted)
+- Start and ending period (both optional)
 
 ### And the class will do in order
-    - Read the file
-    - Create some feature engineering (be inspired from it but follow the business needs and your creativity)
-    - Aggregate and do extra feature engineering
-    - Create a calendar (weekly or monthly) based on first and last timestamp in the data frame, and will fill each time period with customer's statistic
-    - Create a flat historical data frame
-    - Save in a specific folder the data frame(s)
+
+- Read the file
+- Make some feature engineering (be inspired from it but follow the business needs and your creativity)
+- Aggregate and make extra features engineering
+- Create a calendar (weekly or monthly) based on first and last timestamp in the data frame, and fill each time period with customer's statistic (0 if they don't have)
+- Create a flat historical data Data Frame
+- Save in a specific folder
