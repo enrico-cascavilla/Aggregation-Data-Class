@@ -1,13 +1,15 @@
 
 # Aggregation Class
 
+The data are randomly generated (Fake transaction data)
+
 ### Using a fake dataset of transactions that I create I want to give an example of
 
 - Aggregation
 - Feature Engineering (this could be endless)
 - Preparation for an RFM or any other analytic tool aggregate on time and/or user (month or week in this case)
 - Pandas data manipulation
-- Preparation for a hypothetical churn model
+- Preparation for a possible churn model
 
 ### The class will have in input
 
